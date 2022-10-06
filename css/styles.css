@@ -1,0 +1,76 @@
+/* цвет основного текста #212121 */
+/* цвет вторичного текста #757575 */
+/* вторичный цвет фона #F5F4FA */
+/* белый #FFFFFF */
+/* акцент #2196F3 */
+
+:root {
+    --title-text-color: #212121;
+    --primary-text-color: #757575;
+    --accent-color: #2196F3;
+    --white-color: #FFFFFF;
+    --secondary-bgc-color: #F5F4FA;
+}
+
+body {
+    background-color: #F5F5F5;
+    color: var(--title-text-color);
+    }
+  
+    ul {
+        list-style: none;
+    }
+
+    .logo-web {
+        color: var(--accent-color);
+    }
+    .logo-studio {
+        color: #000000;
+    }
+    .site-nav .link {
+        color: var(--title-text-color);
+    }
+    .site-nav .link:hover, .site-nav .link:focus {
+        color: var(--accent-color);
+    }
+    .site-nav .link.current {
+        color: var(--accent-color);
+    }
+    .auth-nav .link {
+        color: var(--primary-text-color);
+    }
+    .auth-nav .link:hover, .auth-nav .link:focus {
+        color: var(--accent-color);
+    }
+
+    /* Hero */
+    .hero {
+        background-color: #2F303A;
+    }
+    .hero-title {
+        color: #FFFFFF;
+    }
+
+    /* Section */
+
+     .section-title {
+        color: var(--title-text-color);        
+     }
+
+    /* Button */
+
+    .button {
+        color: var(--title-text-color);
+        background-color: var(--white-color);
+    }
+    .button.primary {
+        background-color: var(--accent-color);
+        color: var(--white-color);
+    }
+    .button.secondary {
+        color: var(--title-text-color);
+        background-color: var(--secondary-bgc-color);        
+    }
+    .button.secondary:hover, .button.secondary:focus {
+        color: var(--accent-color);
+    }
