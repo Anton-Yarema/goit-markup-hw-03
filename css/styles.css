@@ -53,10 +53,38 @@ body {
 
     /* Section */
 
-     .section-title {
-        color: var(--title-text-color);        
-     }
+        .features {
+            background-color: #F5F5F5;
+        }
 
+        .features-title {
+            color: var(--title-text-color);
+        }
+
+        .features-text {
+            color: var(--primary-text-color);
+        }
+   
+        .services {
+            background-color: #F5F5F5;
+        }
+        .services-title {
+            color: var(--title-text-color);
+        }
+        
+        .team {
+            background-color: var(--secondary-bgc-color);
+        }
+        .team-title {
+            color: var(--title-text-color);
+        }
+        .team-name {
+            color: var(--title-text-color);            
+        }    
+        .team-job {
+            color: var(--primary-text-color);           
+        }
+       
     /* Button */
 
     .button {
