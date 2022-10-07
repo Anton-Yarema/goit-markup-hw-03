@@ -46,6 +46,14 @@ body {
         color: #000000;       
     }
 
+    .summit {
+        background-color: var(--white-color);
+    }
+
+    .portfolio-title {
+        background-color: var(--page-background)
+    }
+
         
     .site-nav {
         font-weight: 500;
@@ -156,6 +164,10 @@ body {
         }
 
         .subtitle {
+            background-color: var(--white-color);
+        }
+
+        .signature {
             background-color: var(--white-color);
         }
 
