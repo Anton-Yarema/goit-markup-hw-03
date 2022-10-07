@@ -186,7 +186,13 @@ body {
 
     /* Button */
 
-    
+    .button {
+        background-color: var(--secondary-bgc-color);
+    }
+
+.button:hover, .button:focus {
+    color: var(--accent-color)
+}
   
     .button.primary {
         font-weight: 700;
