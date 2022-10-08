@@ -113,17 +113,17 @@ body {
         }
         
         .team {
-            background-color: var(--secondary-bgc-color);
-        }
-      
+            background-color: var(--secondary-bgc-color)
+        }     
+             
         .team-title {
             font-weight: 700;
                 font-size: 36px;
                 line-height: 1.16;
                 text-align: center;                
-            color: var(--title-text-color);
+            color: var(--title-text-color);          
         }
-        
+              
         .team-name {
             font-weight: 500;
                 font-size: 16px;
@@ -185,7 +185,7 @@ body {
         color: var(--title-text-color);
         font-weight: 500;
         font-size: 16px;
-        line-height: 1.63;
+        line-height: 1.63;        
     }
 
 .button:hover, .button:focus {
@@ -220,4 +220,7 @@ body {
             overflow: hidden;
         }
 
-
+.work-item .link {
+    color: var(--title-text-color);
+    font-family: inherit;
+}
