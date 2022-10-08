@@ -1,7 +1,7 @@
 /* цвет основного текста #212121 */
 /* цвет вторичного текста #757575 */
 /* вторичный цвет фона #F5F4FA */
-/* белый #FFFFFF */
+/* белый #FFFFFF*/
 /* акцент #2196F3 */
 
 :root {
@@ -15,9 +15,11 @@
 }
 
 body {
-    background-color: var(--page-background)
+    background-color: var(--white-color);
     color: var(--title-text-color);
     font-family: Roboto, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
     }
   
     ul {
@@ -90,7 +92,7 @@ body {
     .hero-title {
         font-weight: 900;
             font-size: 44px;
-            line-height: 1,36;            
+            line-height: 1.36;            
             text-align: center;
             letter-spacing: 0.06em;
             text-transform: uppercase;
@@ -192,11 +194,19 @@ body {
         font-weight: 400;
             font-size: 14px;
             line-height: 1.71;
-       }       
+       }
+       
+       .adress:hover, .adress:focus {
+        color: var(--accent-color);
+       }
 
        .contacts .link {
         font-style: normal;
         color: rgba(255, 255, 255, 0.6);
+       }
+
+       .contacts .link:hover, .contacts .link:focus {
+        color: var(--accent-color);
        }
 
     /* Button */
@@ -222,5 +232,19 @@ body {
         font-family: inherit;
         cursor: pointer;
     }
+
+        .visually-hidden {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            margin: -1px;
+            border: 0;
+            padding: 0;
+    
+            white-space: nowrap;
+            clip-path: inset(100%);
+            clip: rect(0 0 0 0);
+            overflow: hidden;
+        }
 
 
