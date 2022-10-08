@@ -34,16 +34,14 @@ body {
     .logo-web {
         font-weight: 700;
             font-size: 26px;
-            line-height: 1.19;
-            letter-spacing: 0.03em;
+            line-height: 1.19;            
             font-family: Raleway, sans-serif;
         color: var(--accent-color);        
     }
     .logo-studio {
         font-weight: 700;
             font-size: 26px;
-            line-height:1.19;
-            letter-spacing: 0.03em;
+            line-height:1.19;            
             font-family: Raleway, sans-serif;
         color: #000000;       
     }
@@ -51,11 +49,7 @@ body {
     .summit {
         background-color: var(--white-color);
     }
-
-    .portfolio-title {
-        background-color: var(--page-background)
-    }
-
+    
         
     .site-nav {
         font-weight: 500;
@@ -108,8 +102,7 @@ body {
         .features-title {
             font-weight: 700;
                 font-size: 14px;
-                line-height: 1.14;
-                letter-spacing: 0.03em;
+                line-height: 1.14;                
                 text-transform: uppercase;
             color: var(--title-text-color);
         }
@@ -117,32 +110,29 @@ body {
         .features-text {
             font-weight: 400;
                 font-size: 14px;
-                line-height: 1.71;             
-                letter-spacing: 0.03em;
-            color: var(--primary-text-color);
-        }
-   
-        .services {
-            background-color: var(--page-background)
-        }
+                line-height: 1.71;  
+                color: var(--primary-text-color);
+        }   
+       
         .services-title {
             font-weight: 700;
                 font-size: 36px;
                 line-height: 1.16;
-                text-align: center;
-                letter-spacing: 0.03em;
+                text-align: center;                
             color: var(--title-text-color);
         }
         
         .team {
             background-color: var(--secondary-bgc-color);
         }
+        .team-signature {
+            background-color: var(--white-color);
+        }
         .team-title {
             font-weight: 700;
                 font-size: 36px;
                 line-height: 1.16;
-                text-align: center;
-                letter-spacing: 0.03em;
+                text-align: center;                
             color: var(--title-text-color);
         }
         
@@ -150,8 +140,7 @@ body {
             font-weight: 500;
                 font-size: 16px;
                 line-height: 1.18;                
-                text-align: center;
-                letter-spacing: 0.03em;
+                text-align: center;                
             color: var(--title-text-color);
             background-color: var(--white-color);            
         }    
@@ -159,20 +148,11 @@ body {
             font-weight: 400;
                 font-size: 16px;
                 line-height: 1.18;             
-                text-align: center;
-                letter-spacing: 0.03em;
+                text-align: center;                
             color: var(--primary-text-color);     
             background-color: var(--white-color);      
-        }
-
-        .subtitle {
-            background-color: var(--white-color);
-        }
-
-        .signature {
-            background-color: var(--white-color);
-        }
-
+        } 
+       
         /* Footer */
        
         .footer {
