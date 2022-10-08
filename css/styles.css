@@ -220,7 +220,19 @@ body {
             overflow: hidden;
         }
 
-.work-item .link {
+.work-list .link {
     color: var(--title-text-color);
-    font-family: inherit;
-}
+   }
+
+   .work-list .title {
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 2;        
+        letter-spacing: 0.06em;
+   }
+
+   .work-list .text {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.88;
+   }
