@@ -5,6 +5,7 @@
 /* акцент #2196F3 */
 
 :root {
+  --gaaaa: var(--title-color)
   --title-text-color: #212121;
   --primary-text-color: #757575;
   --accent-color: #2196f3;
