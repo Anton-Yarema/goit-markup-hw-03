@@ -24,7 +24,15 @@ html {
   box-sizing: border-box;
 }
 
+.list {
+  margin: 0;
+  padding: 0;
+}
+
 body {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  margin: 0;
   background-color: var(--white-color);
   color: var(--title-text-color);
   font-family: Roboto, sans-serif;
@@ -32,11 +40,21 @@ body {
   letter-spacing: 0.03em;
 }
 
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1230px;
+  margin: 0 auto;
+}
+
 ul {
   list-style: none;
 }
 a {
   text-decoration: none;
+}
+
+.page-header {
 }
 
 /* Logo */
@@ -88,13 +106,15 @@ a {
 
 /* Hero */
 .hero {
+  text-align: center;
   background-color: var(--title-color);
 }
 .hero-title {
+  margin-top: 0;
+  margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
@@ -107,11 +127,19 @@ a {
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--title-text-color);
+  margin-bottom: 10px;
+  margin-top: 0;
+
+  background-color: teal;
 }
 
 .features-text {
+  margin-top: 0;
+  margin-bottom: 60px;
   line-height: 1.71;
   color: var(--primary-text-color);
+
+  background-color: brown;
 }
 
 .services-title {
@@ -120,6 +148,10 @@ a {
   line-height: 1.16;
   text-align: center;
   color: var(--title-text-color);
+
+  margin-top: 0;
+
+  background-color: blueviolet;
 }
 
 .team {
@@ -208,11 +240,12 @@ a {
 }
 
 .button.primary {
+  min-width: 216px;
+  text-align: center;
   padding: 10px 32px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   background-color: var(--accent-color);
