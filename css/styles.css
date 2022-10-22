@@ -32,6 +32,10 @@ html {
   padding: 0;
 }
 
+img {
+  display: block;
+}
+
 ul {
   list-style: none;
 }
@@ -66,6 +70,7 @@ body {
 /* Header! */
 
 .page-header {
+  border-bottom: solid 1px #ececec;
 }
 
 .main-nav {
@@ -248,8 +253,12 @@ body {
   margin-right: 30px;
 }
 
-.team-name {
+.team-wrapper {
   padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.team-name {
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -259,8 +268,6 @@ body {
   background-color: var(--white-color);
 }
 .team-job {
-  padding-bottom: 30px;
-
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
