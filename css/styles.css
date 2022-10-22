@@ -153,6 +153,7 @@ body {
   text-align: center;
   background-color: var(--title-color);
 }
+
 .hero-title {
   margin-top: 0;
   margin-bottom: 30px;
@@ -271,6 +272,22 @@ body {
 
 /*  End section team! */
 
+/* section portfolio */
+
+.portfolio {
+  margin-top: 94px;
+}
+
+.work-samples {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.work-list {
+  flex-basis: calc(100% - 30px * 2) / 3;
+}
+
 /* Footer! */
 
 .footer {
@@ -341,6 +358,13 @@ body {
   background-color: var(--accent-color);
 }
 
+.btn-block {
+  display: flex;
+  margin-bottom: 34px;
+  justify-content: center;
+  gap: 8px;
+}
+
 .button.primary {
   min-width: 216px;
   text-align: center;
@@ -374,7 +398,15 @@ body {
   color: var(--title-text-color);
 }
 
+.work-item {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
 .work-list .title {
+  margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
