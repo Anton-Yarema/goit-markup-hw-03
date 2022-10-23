@@ -299,6 +299,7 @@ body {
 }
 
 .logotip {
+  display: block;
   margin-bottom: 20px;
 }
 
